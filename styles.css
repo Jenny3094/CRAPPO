@@ -1,0 +1,99 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Inter', sans-serif;
+
+}
+body{
+    background-image: url(images/hero-bg.png);
+}
+
+
+
+.container{
+    min-height: 100vh;
+    /* margin-bottom:40px; */
+
+}
+.navbar{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:20px;
+
+}
+
+.navbar ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+.navbar a{
+    text-decoration: none;
+    margin:10px 20px;
+    color:#fff;
+}
+
+.navbar button{
+    display: inline-block;
+}
+
+.hero-section{
+    display: flex;
+}
+.hero-text{
+    padding:20px 40px;
+}
+.hero-text span{
+    background-color:rgba(255, 255, 255, 0.1);
+    border-radius: 32px;
+}
+
+.hero-text h1{
+    color:#fff;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+}
+
+.hero-text p{
+    color:#fff;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.hero-btn{
+    margin-top: 10px;
+}
+
+.hero-btn button{
+    padding:16px 16px 16px 24px;
+    background: #3671E9;
+    border-radius: 32px;
+    color:#fff;
+    border:none;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size:18px ;
+}
+
+.flex-container {
+    padding: 20px;
+    margin-top: 100px;
+}
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+}
+
+.flex h2{
+    font-family: 'Rubik', sans-serif;
+    font-size:20px;
+    font-weight:700;
+    color:#fff;
+}
